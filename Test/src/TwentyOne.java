@@ -43,6 +43,8 @@ public class TwentyOne {
 				System.out.println("BUST !");
 			} else if (handTotal == 21){
 				System.out.println("BINGO - TWENTY ONE !");
+			} else if (handTotal >18 ) {
+				System.out.println("Sticking right here...");
 			} else {
 				System.out.println("Twist - draw card...");
 			}
