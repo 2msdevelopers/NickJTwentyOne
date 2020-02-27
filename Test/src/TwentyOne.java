@@ -35,6 +35,8 @@ public class TwentyOne {
 			System.out.println("");
 			
 			hand.forEach(s -> System.out.println(s.getCardDisplay()));
+			System.out.println(hand.toString());
+			
 			System.out.println("");
 			
 			System.out.println ("Hand Total = " + handTotal + " (Cards left in deck = " + deck.cardsLeft()+")");
@@ -49,7 +51,7 @@ public class TwentyOne {
 				System.out.println("Twist - draw card...");
 			}
 			
-		} while (handTotal < 21);
+		} while (handTotal < 19); //stop if 18+ reached
 		
 	}
 
